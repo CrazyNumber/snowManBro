@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<convertFile>
+<configStructure convertFileName="场景表.xlsx" outFileName="sceneConfigTable.ddsc">
+<readColumn   headName="场景id" type="int"/>
+<readColumn   headName="场景名" type="string"/>
+<readColumn   headName="资源" type="string"/>
+<readColumn   headName="出口位置" type="string"/>
+<readColumn   headName="场景大小" type="string"/>
+<readColumn   headName="遇怪概率" type="int"/>
+<readColumn   headName="场景怪物类型" type="string"/>
+<readColumn   headName="出口场景" type="int"/>
+</configStructure>
+<configStructure convertFileName="人物id表.xlsx" outFileName="roleConfigTable.ddsc">
+<readColumn   headName="人物id" type="int"/>
+<readColumn   headName="类型" type="string"/>
+<readColumn   headName="资源id" type="int"/>
+<readColumn   headName="名字" type="string"/>
+<readColumn   headName="颜色品质" type="string"/>
+<readColumn   headName="物理攻击" type="int"/>
+<readColumn   headName="法术攻击" type="int"/>
+<readColumn   headName="生命" type="int"/>
+<readColumn   headName="物理防御" type="int"/>
+<readColumn   headName="法术防御" type="int"/>
+<readColumn   headName="攻击属性波动比率" type="int"/>
+<readColumn   headName="防御属性波动比率" type="int"/>
+<readColumn   headName="暴击概率" type="int"/>
+<readColumn   headName="降低暴击概率" type="int"/>
+<readColumn   headName="掉落概率" type="int"/>
+<readColumn   headName="所属场景" type="int"/>
+</configStructure>
+<configStructure convertFileName="形象资源表.xlsx" outFileName="resourceConfigTable.ddsc">
+<readColumn   headName="资源id" type="int"/>
+<readColumn   headName="对应资源" type="string"/>
+</configStructure>
+</convertFile>
